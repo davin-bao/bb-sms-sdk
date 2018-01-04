@@ -21,14 +21,14 @@ $smsClient->getTemplateList($searchContent = null, $smsType = null, $getPublic =
 ```json
 {
     "require": {
-        "davin-bao/sms-sdk": "dev-master"
+        "davin-bao/bb-sms-sdk": "dev-master"
     }
 }
 ```
 使用 composer 安装依赖
 
 ```
-$ composer require davin-bao/sms-sdk
+$ composer require davin-bao/bb-sms-sdk
 ```
 导入自动加载文件
 
